@@ -848,3 +848,281 @@ msgstr "Тиждень(тижні)"
 #: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_step_form_view
 msgid "e.g. Remember unpaid invoices"
 msgstr "наприклад, Нагадати про несплачені рахунки"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "<i class=\"fa fa-plus-circle\"/> Add child activity"
+msgstr "<i class=\"fa fa-plus-circle\"/> Додати дочірню активність"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_step_form_view
+msgid ""
+"<span class=\"col-2\" invisible=\"trigger_date_kind != 'offset'\">after</span>\n"
+"                                    <span class=\"col-2\" invisible=\"trigger_date_kind == 'offset'\">when</span>"
+msgstr ""
+"<span class=\"col-2\" invisible=\"trigger_date_kind != 'offset'\">після</span>\n"
+"                                    <span class=\"col-2\" invisible=\"trigger_date_kind == 'offset'\">коли</span>"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_step_form_view
+msgid "<span class=\"col-2\">after</span>"
+msgstr "<span class=\"col-2\">після</span>"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_step_form_view
+msgid "<span class=\"col-2\">of</span>"
+msgstr "<span class=\"col-2\">із</span>"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "<span class=\"pe-1\">Immediatly</span>"
+msgstr "<span class=\"pe-1\">Негайно</span>"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_form_view
+msgid "<span>This record is an orphan record</span>"
+msgstr "<span>Цей запис є сирітським</span>"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__activity_action_count
+msgid "Activity Action Count"
+msgstr "Кількість дій активності"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__activity_cancel_on
+msgid "Activity Cancel On"
+msgstr "Скасувати активність на"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__activity_mail_count
+msgid "Activity Mail Count"
+msgstr "Кількість листів активностей"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__activity_user_type
+msgid "Activity User Type"
+msgstr "Тип користувача активності"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__activity_verification_domain
+msgid "Activity Verification Domain"
+msgstr "Домен перевірки активності"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__activity_verification_domain_error
+msgid "Activity Verification Domain Error"
+msgstr "Помилка домену перевірки активності"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__apply_parent_domain
+msgid "Apply Parent Domain"
+msgstr "Застосувати домен батьківського запису"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__automation_direct_step_ids
+msgid "Automation Direct Step"
+msgstr "Прямий крок автоматизації"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.link_tracker_click_search_view
+msgid "Automation configuration"
+msgstr "Конфігурація автоматизації"
+
+#. module: automation_oca
+#: model:ir.actions.server,name:automation_oca.cron_configuration_run_ir_actions_server
+msgid "Automation: Create records"
+msgstr "Автоматизація: створити записи"
+
+#. module: automation_oca
+#: model:ir.actions.server,name:automation_oca.cron_step_execute_ir_actions_server
+msgid "Automation: Execute scheduled activities"
+msgstr "Автоматизація: виконати заплановані активності"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "Enforce generation"
+msgstr "Примусове створення"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__expiry_interval_type
+msgid "Expiry Interval Type"
+msgstr "Тип інтервалу завершення"
+
+#. module: automation_oca
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_configuration_step__trigger_date_kind__date
+msgid "Force on Record Date"
+msgstr "Примусово за датою запису"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "Generate new records"
+msgstr "Створити нові записи"
+
+#. module: automation_oca
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_configuration_step__activity_user_type__generic
+msgid "Generic User From Record"
+msgstr "Типовий користувач із запису"
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_step_form_view
+msgid ""
+"In this case, the task will be executed automatically when we create it in "
+"the same process."
+msgstr ""
+"У цьому випадку завдання буде виконано автоматично під час його створення в "
+"тому самому процесі."
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration__model_id
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration_step__model_id
+#: model:ir.model.fields,help:automation_oca.field_automation_filter__model_id
+msgid "Model where the configuration is applied"
+msgstr "Модель, до якої застосовується конфігурація"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__next_execution_date
+msgid "Next Execution Date"
+msgstr "Наступна дата виконання"
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid ""
+"On <b>on demand configurations</b>, the records are created only by pressing the run button.\n"
+"                        It is useful if you want to control the execution and created records manually."
+msgstr ""
+"У <b>конфігураціях на вимогу</b> записи створюються лише після натискання кнопки запуску.\n"
+"                        Це корисно, якщо ви хочете вручну контролювати виконання та створені записи."
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid ""
+"On <b>periodical configurations</b>, the records are created automatically by a cron job.\n"
+"                        It is great for tasks that don't need user validation."
+msgstr ""
+"У <b>періодичних конфігураціях</b> записи автоматично створюються cron-завданням.\n"
+"                        Це зручно для завдань, які не потребують підтвердження користувача."
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_test_form_view
+msgid ""
+"On tests, mails will not be sent, but templates will be generated and "
+"actions will be executed."
+msgstr ""
+"Під час тестів листи не надсилатимуться, але шаблони буде створено, а дії "
+"виконано."
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__record_done_count
+msgid "Record Done Count"
+msgstr "Кількість виконаних записів"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__record_run_count
+msgid "Record Run Count"
+msgstr "Кількість запусків запису"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__record_test_count
+msgid "Record Test Count"
+msgstr "Кількість тестових записів"
+
+#. module: automation_oca
+#: model:ir.actions.act_window,name:automation_oca.automation_configuration_test_act_window
+msgid "Test Configuration"
+msgstr "Тестова конфігурація"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_test_form_view
+msgid "Test configuration"
+msgstr "Тестова конфігурація"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_step_form_view
+msgid ""
+"The scheduled date will be the date of the record at the moment we generate the new record.\n"
+"                                Later changes of the field will not affect the scheduled date."
+msgstr ""
+"Запланованою датою буде дата запису на момент створення нового запису.\n"
+"                                Подальші зміни поля не впливатимуть на заплановану дату."
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid ""
+"This a periodical configuration. New records are generated automatically.\n"
+"                        Next execution is programed for"
+msgstr ""
+"Це періодична конфігурація. Нові записи створюються автоматично.\n"
+"                        Наступне виконання заплановано на"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid ""
+"This is configuration only generates new records on demand. Press the button"
+" in order to execute them manually."
+msgstr ""
+"Ця конфігурація створює нові записи лише на вимогу. Натисніть кнопку, щоб "
+"виконати це вручну."
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_step_form_view
+msgid ""
+"This is the final domain that will be applied to the records.\n"
+"                                Consists in the join of the specific domain of the step and the domain of the records."
+msgstr ""
+"Це фінальний домен, який буде застосовано до записів.\n"
+"                                Він складається з об’єднання конкретного домену етапу та домену записів."
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__trigger_child_types
+msgid "Trigger Child Types"
+msgstr "Запускати дочірні типи"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__trigger_date_field_id
+msgid "Trigger Date Field"
+msgstr "Поле дати запуску"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__trigger_date_kind
+msgid "Trigger Date Kind"
+msgstr "Тип дати запуску"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__trigger_interval
+msgid "Trigger Interval"
+msgstr "Інтервал запуску"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__trigger_interval_hours
+msgid "Trigger Interval Hours"
+msgstr "Інтервал запуску в годинах"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__trigger_interval_type
+msgid "Trigger Interval Type"
+msgstr "Тип інтервалу запуску"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "Unicity based on"
+msgstr "Унікальність на основі"
