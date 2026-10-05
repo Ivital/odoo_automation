@@ -1126,3 +1126,98 @@ msgstr "Тип інтервалу запуску"
 #: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
 msgid "Unicity based on"
 msgstr "Унікальність на основі"
+
+#. module: automation_oca
+#: model:ir.model,name:automation_oca.model_automation_record_step
+msgid "Activities done on the record"
+msgstr "Дії, виконані із записом"
+
+#. module: automation_oca
+#: model:ir.model,name:automation_oca.model_automation_filter
+msgid "Automation Filter"
+msgstr "Фільтр автоматизації"
+
+#. module: automation_oca
+#: model:ir.model,name:automation_oca.model_automation_configuration_step
+msgid "Automation Steps"
+msgstr "Кроки автоматизації"
+
+#. module: automation_oca
+#: model:ir.model,name:automation_oca.model_automation_tag
+msgid "Automation Tag"
+msgstr "Тег автоматизації"
+
+#. module: automation_oca
+#: model:ir.model,name:automation_oca.model_automation_configuration_export
+msgid "Export Automation Configuration"
+msgstr "Конфігурація автоматизації експорту"
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_filter__domain
+msgid "Filter to apply"
+msgstr "Фільтр для застосування"
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration_step__domain
+msgid "Filter to apply specifically"
+msgstr "Фільтр для спеціального застосування"
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration_step__activity_verification_domain
+msgid "Filter to verify when the activity is done"
+msgstr "Фільтр для перевірки після виконання активності"
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_record__is_orphan_record
+msgid "Indicates if this record is a placeholder for a missing resource."
+msgstr "Вказує, чи є цей запис заповнювачем для відсутнього ресурсу."
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration__is_periodic
+msgid "Mark it if you want to make the execution periodic"
+msgstr "Позначте, якщо потрібно зробити виконання періодичним"
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration_step__activity_verification_domain_error
+msgid "Message to show when the activity domain is not as expected"
+msgstr ""
+"Повідомлення, яке показується, коли домен активності не відповідає "
+"очікуваному"
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration_step__trigger_interval
+msgid ""
+"Set a negative time trigger if you want the step to be executed\n"
+"        immediately, in parallel with the previous step, without waiting for it to\n"
+"        finish."
+msgstr ""
+"Встановіть від’ємний часовий тригер, якщо потрібно виконати крок\n"
+"        негайно, паралельно з попереднім кроком, не очікуючи його\n"
+"        завершення."
+
+#. module: automation_oca
+#: model:ir.model,name:automation_oca.model_automation_configuration_test
+msgid "Test automation configuration"
+msgstr "Конфігурація автоматизації тестів"
+
+#. module: automation_oca
+#. odoo-javascript
+#: code:addons/automation_oca/static/src/views/automation_upload/automation_upload.xml:0
+msgid "Upload"
+msgstr "Завантажити"
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration_step__activity_user_type
+msgid ""
+"Use 'Specific User' to always assign the same user on the next activity.\n"
+"        Use 'Generic User From Record' to specify the field name of the user\n"
+"        to choose on the record."
+msgstr ""
+"Використовуйте «Конкретний користувач», щоб завжди призначати того самого користувача для наступної активності.\n"
+"        Використовуйте «Загальний користувач із запису», щоб указати назву поля користувача,\n"
+"        якого слід вибрати в записі."
+
+#. module: automation_oca
+#: model:ir.model.fields,help:automation_oca.field_automation_configuration__field_id
+msgid "Used to avoid duplicates"
+msgstr "Використовується для уникнення дублікатів"
