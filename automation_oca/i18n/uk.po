@@ -1,0 +1,489 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__active
+#: model:ir.model.fields,field_description:automation_oca.field_automation_tag__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: automation_oca
+#: model:ir.actions.act_window,name:automation_oca.automation_record_step_act_window
+#: model:ir.ui.menu,name:automation_oca.automation_record_step_menu
+msgid "Activities"
+msgstr "Дії"
+
+#. module: automation_oca
+#: model:ir.model,name:automation_oca.model_mail_activity
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__activity_type_id
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_configuration_step__step_type__activity
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_step_form_view
+msgid "Activity"
+msgstr "Активність"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_search_view
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: automation_oca
+#: model:ir.ui.menu,name:automation_oca.automation_root_menu
+msgid "Automation"
+msgstr "Автоматизація"
+
+#. module: automation_oca
+#: model:ir.actions.act_window,name:automation_oca.automation_configuration_act_window
+#: model:ir.model,name:automation_oca.model_automation_configuration
+#: model:ir.ui.menu,name:automation_oca.automation_configuration_menu
+msgid "Automation Configuration"
+msgstr "Конфігурація автоматизації"
+
+#. module: automation_oca
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_record_step__state__cancel
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_form_view
+msgid "Cancelled"
+msgstr "Скасовано"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__child_ids
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__child_ids
+msgid "Child"
+msgstr "Дочірній"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__click_count
+msgid "Click Count"
+msgstr "Кількість кліків"
+
+#. module: automation_oca
+#: model:ir.actions.act_window,name:automation_oca.link_tracker_click_act_window
+#: model:ir.ui.menu,name:automation_oca.link_tracker_click_menu
+msgid "Clicks"
+msgstr "Кліки"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_tag__color
+msgid "Color"
+msgstr "Колір"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_export__configuration_id
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__configuration_id
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_test__configuration_id
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record__configuration_id
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__configuration_id
+#: model:ir.model.fields,field_description:automation_oca.field_link_tracker_click__automation_configuration_id
+#: model:ir.ui.menu,name:automation_oca.automation_config_root_menu
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__create_uid
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_export__create_uid
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__create_uid
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_test__create_uid
+#: model:ir.model.fields,field_description:automation_oca.field_automation_filter__create_uid
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record__create_uid
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__create_uid
+#: model:ir.model.fields,field_description:automation_oca.field_automation_tag__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__create_date
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_export__create_date
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__create_date
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_test__create_date
+#: model:ir.model.fields,field_description:automation_oca.field_automation_filter__create_date
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record__create_date
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__create_date
+#: model:ir.model.fields,field_description:automation_oca.field_automation_tag__create_date
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_search_view
+msgid "Created on"
+msgstr "Створено"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_step_form_view
+msgid "Deadline"
+msgstr "Кінцевий термін"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "Delete"
+msgstr "Видалити"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__display_name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_export__display_name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__display_name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_test__display_name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_filter__display_name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record__display_name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__display_name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_tag__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__do_not_wait
+msgid "Do Not Wait"
+msgstr "Не чекати"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__domain
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__domain
+#: model:ir.model.fields,field_description:automation_oca.field_automation_filter__domain
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "Domain"
+msgstr "Домен"
+
+#. module: automation_oca
+#. odoo-javascript
+#: code:addons/automation_oca/static/src/fields/automation_graph/automation_graph.esm.js:0
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_configuration__state__done
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_record__state__done
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_record_step__state__done
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_kanban_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_search_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_step_search_view
+msgid "Done"
+msgstr "Готово"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__activity_date_deadline_range
+msgid "Due Date In"
+msgstr "Термін оплати через"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__activity_date_deadline_range_type
+msgid "Due type"
+msgstr "Тип строку"
+
+#. module: automation_oca
+#. odoo-javascript
+#: code:addons/automation_oca/static/src/fields/automation_graph/automation_graph.esm.js:0
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_record_step__state__error
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_step_form_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_step_search_view
+msgid "Error"
+msgstr "Помилка"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__error_trace
+msgid "Error Trace"
+msgstr "Трасування помилки"
+
+#. module: automation_oca
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_record_step__state__expired
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_form_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_step_search_view
+msgid "Expired"
+msgstr "Прострочено"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__expiry
+msgid "Expiry"
+msgstr "Строк дії"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__expiry_date
+msgid "Expiry Date"
+msgstr "Дата закінчення строку"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "Export"
+msgstr "Експорт"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__field_id
+msgid "Field"
+msgstr "Поле"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__trigger_date_field
+msgid "Field Label"
+msgstr "Мітка поля"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_export__file_content
+msgid "File Content"
+msgstr "Вміст файлу"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_export__file_name
+msgid "File Name"
+msgstr "Ім’я файлу"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__filter_id
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "Filter"
+msgstr "Фільтр"
+
+#. module: automation_oca
+#: model:ir.actions.act_window,name:automation_oca.automation_filter_act_window
+#: model:ir.ui.menu,name:automation_oca.automation_filter_menu
+msgid "Filters"
+msgstr "Фільтри"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__graph_data
+msgid "Graph Data"
+msgstr "Дані графіка"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__graph_done
+msgid "Graph Done"
+msgstr "Графік завершено"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__graph_error
+msgid "Graph Error"
+msgstr "Помилка графіка"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__is_periodic
+msgid "Is Periodic"
+msgstr "Періодичний"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record__is_test
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__is_test
+msgid "Is Test"
+msgstr "Тестовий"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__mail_author_id
+msgid "Mail Author"
+msgstr "Автор листа"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__mail_status
+msgid "Mail Status"
+msgstr "Статус пошти"
+
+#. module: automation_oca
+#: model:res.groups,name:automation_oca.group_automation_manager
+msgid "Manager"
+msgstr "Керівник"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__message_id
+msgid "Message"
+msgstr "Повідомлення"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__model
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__model
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_test__model
+#: model:ir.model.fields,field_description:automation_oca.field_automation_filter__model
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record__model
+msgid "Model"
+msgstr "Модель"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__model_id
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__model_id
+#: model:ir.model.fields,field_description:automation_oca.field_automation_filter__model_id
+msgid "Model ID"
+msgstr "ID моделі"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_filter__name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record__name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_tag__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__activity_note
+msgid "Note"
+msgstr "Нотатка"
+
+#. module: automation_oca
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_configuration_step__trigger_date_kind__offset
+msgid "Offset"
+msgstr "Зміщення"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_record_step.py:0
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_record_step__mail_status__open
+msgid "Opened"
+msgstr "Відкрито"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__parent_id
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__parent_id
+msgid "Parent"
+msgstr "Батьківський"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record__res_id
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__record_id
+msgid "Record"
+msgstr "Запис"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__record_count
+msgid "Record Count"
+msgstr "Кількість записів"
+
+#. module: automation_oca
+#: model:ir.actions.act_window,name:automation_oca.automation_record_configuration_act_window
+#: model:ir.ui.menu,name:automation_oca.automation_record_menu
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_kanban_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_graph_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_pivot_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_step_graph_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_step_pivot_view
+msgid "Records"
+msgstr "Записи"
+
+#. module: automation_oca
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_record_step__state__rejected
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_form_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_step_search_view
+msgid "Rejected"
+msgstr "Відхилено"
+
+#. module: automation_oca
+#: model:ir.ui.menu,name:automation_oca.automation_reporting_root_menu
+msgid "Reporting"
+msgstr "Звітність"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_test__resource_ref
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record__resource_ref
+msgid "Resource Ref"
+msgstr "Посилання на ресурс"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__activity_user_id
+msgid "Responsible"
+msgstr "Відповідальний"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_record_step.py:0
+#: model:ir.model.fields.selection,name:automation_oca.selection__automation_record_step__mail_status__sent
+msgid "Sent"
+msgstr "Надіслано"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "Start"
+msgstr "Почати"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__state
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record__state
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__state
+msgid "State"
+msgstr "Стан"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__step_icon
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__step_icon
+msgid "Step Icon"
+msgstr "Іконка кроку"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__step_name
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__step_name
+msgid "Step Name"
+msgstr "Назва кроку"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__step_type
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__step_type
+msgid "Step Type"
+msgstr "Тип кроку"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__activity_summary
+msgid "Summary"
+msgstr "Підсумок"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration__tag_ids
+msgid "Tag"
+msgstr "Тег"
+
+#. module: automation_oca
+#: model:ir.actions.act_window,name:automation_oca.automation_tag_act_window
+#: model:ir.ui.menu,name:automation_oca.automation_tag_menu
+msgid "Tags"
+msgstr "Теги"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_test_form_view
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_record_form_view
+msgid "Test"
+msgstr "Тест"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_form_view
+msgid "Tests"
+msgstr "Тести"
+
+#. module: automation_oca
+#: model_terms:ir.ui.view,arch_db:automation_oca.automation_configuration_step_form_view
+msgid "Trigger"
+msgstr "Тригер"
+
+#. module: automation_oca
+#: model:ir.model.fields,field_description:automation_oca.field_automation_configuration_step__trigger_type
+#: model:ir.model.fields,field_description:automation_oca.field_automation_record_step__trigger_type
+msgid "Trigger Type"
+msgstr "Тип тригера"
+
+#. module: automation_oca
+#: model:res.groups,name:automation_oca.group_automation_user
+msgid "User"
+msgstr "Користувач"
