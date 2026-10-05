@@ -1221,3 +1221,222 @@ msgstr ""
 #: model:ir.model.fields,help:automation_oca.field_automation_configuration__field_id
 msgid "Used to avoid duplicates"
 msgstr "Використовується для уникнення дублікатів"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "%s configurations needs a parent"
+msgstr "Для %s конфігурацій потрібен батьківський запис"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_record_step.py:0
+msgid "Activity Done"
+msgstr "Дію виконано"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Activity has been cancelled"
+msgstr "Дію скасовано"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Activity has been finished"
+msgstr "Дію завершено"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Activity has not been finished"
+msgstr "Дію не завершено"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Activity not cancelled"
+msgstr "Дію не скасовано"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Activity not done"
+msgstr "Дію не виконано"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "After finished"
+msgstr "Після завершення"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Bounced after"
+msgstr "Повернено після"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Clicked after"
+msgstr "Натиснуто після"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Mail bounced"
+msgstr "Лист повернено"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Mail clicked"
+msgstr "Лист відкрито за посиланням"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Mail not clicked"
+msgstr "Лист не натиснуто"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Mail not opened"
+msgstr "Лист не відкрито"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Mail not replied"
+msgstr "На лист не відповіли"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Mail opened"
+msgstr "Лист відкрито"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Mail replied"
+msgstr "На лист відповіли"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Not bounced yet"
+msgstr "Ще не повернено"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Not clicked within"
+msgstr "Не натиснуто протягом"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Not clicked yet"
+msgstr "Ще не натиснуто"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Not finished within"
+msgstr "Не завершено протягом"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Not opened within"
+msgstr "Не відкрито протягом"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Not opened yet"
+msgstr "Ще не відкрито"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Not replied within"
+msgstr "Не відповіли протягом"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Not replied yet"
+msgstr "Ще не відповіли"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Opened after"
+msgstr "Відкрито після"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_record.py:0
+msgid "Orphan Record"
+msgstr "Осиротілий запис"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Replied after"
+msgstr "Відповідь після"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "Server Context is not wellformed"
+msgstr "Контекст сервера має неправильний формат"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration.py:0
+msgid "State must be in draft in order to start"
+msgstr "Щоб розпочати, стан має бути «Чернетка»"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_record_step.py:0
+msgid ""
+"The record does not fulfill the expected domain:\n"
+"%(domain)s"
+msgstr ""
+"Запис не відповідає очікуваному домену:\n"
+"%(domain)s"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "To use a %(name)s trigger type we need a parent of type %(parents)s"
+msgstr ""
+"Для типу тригера %(name)s потрібен батьківський елемент типу %(parents)s"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_record_step.py:0
+msgid ""
+"You can only retry a record step in a rejected, expired, cancelled or error "
+"state."
+msgstr ""
+"Повторити крок запису можна лише у стані відхилено, прострочено, скасовано "
+"або помилка."
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "execution of another step"
+msgstr "виконання іншого кроку"
+
+#. module: automation_oca
+#. odoo-python
+#: code:addons/automation_oca/models/automation_configuration_step.py:0
+msgid "start of workflow"
+msgstr "початок робочого процесу"
